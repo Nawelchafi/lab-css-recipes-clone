@@ -1,9 +1,75 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  box-sizing: border-box;
+  font-size: 16px;
+
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight:normal;
+}
+
+/*  Set the font */
+body {
+  font-family: "montserrat", sans-serif;
+}
+
+/* STYLES */
+/* Write your CSS below */
+
+section h1 {
+  color: white;
+  font-size: 100px;
+  background-image: url('../images/soup.jpg');
+  background-size: cover;
+  margin: auto;
+  padding: 20px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+p {
+  display: block;
+  padding: 20px 30px;
+  margin-top: 60px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 20px;
+}
+
+img {
+  display: block;
+  width: 400px;
+  height: 70px;
+  margin: auto;
+}
+
+hr {
+  margin-top: 40px;
+  margin-left: 160px;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-weight: bold;
+  margin: 0 120px;
+  padding: 40px;
+}
+
+ul {
+  list-style-type: '- ';
+  padding: 0 40px;
+  margin-left: 120px;
+}
+li{
+  padding: 3px;
 }
